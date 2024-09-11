@@ -1,5 +1,5 @@
 name: "Submit a Company/Product/Service"
-description: "Provide details about your company, product, or service for review"
+description: "Provide details about your company, product, or service for review. All the content you submit should be ORIGINAL content (re-written from the website/brand materials to give it the best chance of being listed favorably, and ranking higher in search engine so more people can find you."
 title: "[SUBMISSION] Company/Product: "
 labels: ["submission"]
 assignees: []
@@ -88,7 +88,7 @@ body:
     id: short_description
     attributes:
       label: "Short Description"
-      description: "Provide a short description (50 characters max)"
+      description: "Provide a short description. The content you submit should be ORIGINAL content (re-written from the website/brand materials to give it the best chance of being listed favorably, and ranking higher in search engine so more people can find you."
       placeholder: "Brief description of your product"
     validations:
       required: true
@@ -96,9 +96,9 @@ body:
   - type: textarea
     id: full_description
     attributes:
-      label: "Full Description"
-      description: "Provide a detailed description (255 characters max)"
-      placeholder: "Full description of your product"
+      label: "Full Description or article"
+      description: "Provide a detailed description, or a full article formatting in markdown showcasing whatever you feel is relevant and helpful. The content you submit should be ORIGINAL content (re-written from the website/brand materials to give it the best chance of being listed favorably, and ranking higher in search engine so more people can find you."
+      placeholder: "Long form content"
     validations:
       required: true
 
