@@ -41,6 +41,8 @@ body:
         - Software
         - Service Provider
         - Info Product
+    validations:
+      required: true
 
   - type: dropdown
     id: market
@@ -50,6 +52,8 @@ body:
       options:
         - B2B
         - B2C
+    validations:
+      required: true
 
   - type: checkboxes
     id: categories
@@ -62,6 +66,8 @@ body:
         - label: "E-Commerce"
         - label: "Finance"
         - label: "Education"
+    validations:
+      required: true
 
   - type: textarea
     id: competitors
@@ -69,6 +75,8 @@ body:
       label: "Competitors"
       description: "List competitors for your product/service"
       placeholder: "Enter competitor URLs"
+    validations:
+      required: true
 
   - type: textarea
     id: features
@@ -76,6 +84,8 @@ body:
       label: "Features"
       description: "List key features of your product (Add one per line)"
       placeholder: "Feature 1\nFeature 2\nFeature 3"
+    validations:
+      required: true
 
   - type: input
     id: feature_page_url
@@ -110,6 +120,8 @@ body:
       options:
         - Free
         - Paid
+    validations:
+      required: true
 
   - type: dropdown
     id: model
@@ -120,6 +132,8 @@ body:
         - Subscription
         - One-time Purchase
         - Freemium
+    validations:
+      required: true
 
   - type: dropdown
     id: free_trial
@@ -128,6 +142,8 @@ body:
       options:
         - "Yes"
         - "No"
+    validations:
+      required: true
 
   - type: dropdown
     id: open_source
@@ -136,6 +152,8 @@ body:
       options:
         - "Yes"
         - "No"
+    validations:
+      required: true
 
   - type: input
     id: promo_code
@@ -158,6 +176,8 @@ body:
       options:
         - "Yes"
         - "No"
+    validations:
+      required: true
 
   - type: dropdown
     id: affiliate_program
@@ -166,6 +186,8 @@ body:
       options:
         - "Yes"
         - "No"
+    validations:
+      required: true
 
   - type: input
     id: affiliate_signup_url
@@ -180,6 +202,8 @@ body:
       label: "Logo URL"
       description: "Link to your company/product logo"
       placeholder: "https://example.com/logo.png"
+    validations:
+      required: true
 
   - type: input
     id: promo_video_url
@@ -194,6 +218,8 @@ body:
       label: "Social Media Links"
       description: "Provide your social media URLs (One per line)"
       placeholder: "YouTube: https://youtube.com/...\nInstagram: https://instagram.com/..."
+    validations:
+      required: true
 
   - type: checkboxes
     id: consent
@@ -201,3 +227,5 @@ body:
       label: "Consent"
       options:
         - label: "You may upload my videos to your YouTube to promote my brand"
+    validations:
+      required: true
