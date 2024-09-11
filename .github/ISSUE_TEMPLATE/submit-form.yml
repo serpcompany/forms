@@ -121,21 +121,21 @@ body:
         - One-time Purchase
         - Freemium
 
-  - type: radio
+  - type: dropdown
     id: free_trial
     attributes:
       label: "Free Trial Available?"
       options:
-        - label: "Yes"
-        - label: "No"
+        - "Yes"
+        - "No"
 
-  - type: radio
+  - type: dropdown
     id: open_source
     attributes:
       label: "Is this product open-source?"
       options:
-        - label: "Yes"
-        - label: "No"
+        - "Yes"
+        - "No"
 
   - type: input
     id: promo_code
@@ -151,21 +151,21 @@ body:
       description: "Link to pricing page (Optional)"
       placeholder: "https://example.com/pricing"
 
-  - type: radio
+  - type: dropdown
     id: referral_program
     attributes:
       label: "Referral Program?"
       options:
-        - label: "Yes"
-        - label: "No"
+        - "Yes"
+        - "No"
 
-  - type: radio
+  - type: dropdown
     id: affiliate_program
     attributes:
       label: "Affiliate Program?"
       options:
-        - label: "Yes"
-        - label: "No"
+        - "Yes"
+        - "No"
 
   - type: input
     id: affiliate_signup_url
