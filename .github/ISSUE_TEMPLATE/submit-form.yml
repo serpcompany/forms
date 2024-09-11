@@ -2,7 +2,7 @@ name: "Submit a Company/Product/Service"
 description: "Provide details about your company, product, or service for review"
 title: "[SUBMISSION] Company/Product: "
 labels: ["submission"]
-assignees: ''
+assignees: []
 
 body:
   - type: input
