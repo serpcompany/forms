@@ -68,7 +68,7 @@ body:
     attributes:
       label: "Competitors"
       description: "List competitors for your product/service"
-      placeholder: "Enter competitor names"
+      placeholder: "Enter competitor URLs"
 
   - type: textarea
     id: features
