@@ -1,7 +1,7 @@
 name: "Get Featured"
 description: "Become a SERP partner and showcase your product/service with premium placements."
-title: "[ADVERTISE]: "
-labels: ["advertise"]
+title: "[FEATURED]: "
+labels: ["premium"]
 assignees: []
 
 body:
