@@ -1,0 +1,51 @@
+name: "Get Featured"
+description: "Become a SERP partner and showcase your product/service with premium placements."
+title: "[ADVERTISE]: "
+labels: ["advertise"]
+assignees: []
+
+body:
+  - type: input
+    id: first_name
+    attributes:
+      label: "First Name"
+      description: "What is your first name?"
+    validations:
+      required: true
+
+  - type: input
+    id: family_name
+    attributes:
+      label: "Last Name"
+      description: "What is your last name?"
+    validations:
+      required: true
+
+  - type: input
+    id: company_name
+    attributes:
+      label: "Company Name"
+      description: "What is the name of the company you work with?"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: "Website URL"
+      description: "What is the website URL?"
+    validations:
+      required: true
+  
+  - type: markdown
+    attributes:
+      value: "3 IMPORTANT Final Steps"
+  - type: markdown
+    attributes:
+      value: |
+        1. If you're product is already listed on our site(s), please make sure to include the URLs of the listing.
+        2. If you're product is NOT already listed on our site, please submit it here: https://serp.ly/@serp/submit
+        3. 
+          - Click here to pay & finalize featured placement for Position 1: https://buy.stripe.com/fZe5npeUOcP6gG4288
+          - Click here to pay & finalize featured placement for Position 2: https://buy.stripe.com/4gw6rt7sm9CU2PeaEH
+        
