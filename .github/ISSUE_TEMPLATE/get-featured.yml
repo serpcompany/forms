@@ -1,7 +1,8 @@
-name: "Get Featured"
-description: "Become a SERP partner and showcase your product/service with premium placements."
+name: Get Featured
+description: Become a SERP partner and showcase your product/service with premium placements.
 title: "[FEATURED]: "
-labels: ["premium"]
+labels:
+  - premium
 assignees: []
 
 body:
@@ -36,10 +37,12 @@ body:
       description: "What is the website URL?"
     validations:
       required: true
-  
+
   - type: markdown
     attributes:
-      value: "## 3 IMPORTANT Final Steps \n \n 1. If you're product is already listed on our site(s), please make sure to include the URLs of the listing.
-              2. If you're product is NOT already listed on our site, please submit it here: https://serp.ly/@serp/submit
-              3. Pay & finalize featured placement for [Position 1](https://buy.stripe.com/fZe5npeUOcP6gG4288) or for [Position 2+](https://buy.stripe.com/4gw6rt7sm9CU2PeaEH)"
-        
+      value: |
+        ## 3 IMPORTANT Final Steps
+
+        1. If your product is already listed on our site(s), please include the URLs of the listing.
+        2. If your product is NOT already listed, please submit it here: [Submit your product](https://serp.ly/@serp/submit).
+        3. Pay & finalize featured placement for [Position 1](https://buy.stripe.com/fZe5npeUOcP6gG4288) or for [Position 2+](https://buy.stripe.com/4gw6rt7sm9CU2PeaEH).
